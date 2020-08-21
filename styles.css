@@ -1,0 +1,35 @@
+
+
+
+
+.first{
+    font-size: 2rem;
+    text-align: center;
+    background-color: white;
+    animation-name: slideInLeft;
+}
+.container1{
+    display: flex;
+    text-align: center;
+    height: 70vh;
+}
+.side{
+    text-align: left;
+}
+.blue{
+    color: lightblue;
+}
+h1 {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.center{
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: 50%;
+}
